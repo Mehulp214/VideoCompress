@@ -8,12 +8,13 @@ class Config(object):
     # Put MongoDB URL
     DATABASE_URL = get_config("DATABASE_URL", "")
     # get a token from @BotFather
-    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "7160872230:AAHmmk7eDW2FwtVkRLwl3dwzJALR-qiS15Q")
     # The Telegram API things
-    APP_ID = int(get_config("APP_ID", 12345))
-    API_HASH = get_config("API_HASH", "")
+    APP_ID = int(get_config("APP_ID", 13216322))
+    API_HASH = get_config("API_HASH", "15e5e632a8a0e52251ac8c3ccbe462c7")
     LOG_CHANNEL = get_config("LOG_CHANNEL")
-    UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
+    UPDATES_CHANNEL= "MEHULBOTS"
+    #UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
      # Get these values from my.telegram.org
     # array to store the channel ID who are authorized to use the bot
     AUTH_USERS = set(
