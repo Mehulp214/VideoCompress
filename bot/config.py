@@ -6,13 +6,13 @@ class Config(object):
     # You can keep this default
     SESSION_NAME = get_config("SESSION_NAME", "AHCompressorBot")
     # Put MongoDB URL
-    DATABASE_URL = get_config("DATABASE_URL", "")
+    DATABASE_URL = get_config("DATABASE_URL", "mongodb+srv://mehul29yt:TfJv3xbxaSFHfSXf@mehul.cfuyvdj.mongodb.net/")
     # get a token from @BotFather
     TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "7160872230:AAHmmk7eDW2FwtVkRLwl3dwzJALR-qiS15Q")
     # The Telegram API things
     APP_ID = int(get_config("APP_ID", 13216322))
     API_HASH = get_config("API_HASH", "15e5e632a8a0e52251ac8c3ccbe462c7")
-    LOG_CHANNEL = get_config("LOG_CHANNEL")
+    LOG_CHANNEL = get_config("LOG_CHANNEL","-1001817380537")
     UPDATES_CHANNEL= "MEHULBOTS"
     #UPDATES_CHANNEL = get_config("UPDATES_CHANNEL", None) # Without `@` LOL
      # Get these values from my.telegram.org
