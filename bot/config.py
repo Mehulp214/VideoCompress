@@ -6,7 +6,7 @@ class Config(object):
     # You can keep this default
     SESSION_NAME = get_config("SESSION_NAME", "AHCompressorBot")
     # Put MongoDB URL
-    DATABASE_URL = get_config("DATABASE_URL", "mongodb+srv://mehul29yt:TfJv3xbxaSFHfSXf@mehul.cfuyvdj.mongodb.net/")
+    DATABASE_URL = get_config("DATABASE_URL", "mongodb+srv://newuser_31:qwerty_1234@cluster0.lajjdmy.mongodb.net/")
     # get a token from @BotFather
     TG_BOT_TOKEN = get_config("TG_BOT_TOKEN", "7160872230:AAHmmk7eDW2FwtVkRLwl3dwzJALR-qiS15Q")
     # The Telegram API things
